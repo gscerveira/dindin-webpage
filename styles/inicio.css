@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: "Ubuntu";
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #2e948a;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.container-logo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  max-width: 1640px;
+  padding: 1.2vw 5vw;
+}
+
+.logo-header {
+  width: max(8vw, 100px);
+}
+
+.menu-item-header {
+  color: #fdfdfd;
+  font-weight: 700;
+  font-size: max(1.0vw, 10px);
+  text-decoration: none;
+  margin-left: 1vw;
+}
+
+.menu-item-header:hover {
+  opacity: 0.5;
+}
+
+#banner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: 2.3vw auto;
+}
+
+#banner h1 {
+  font-size: max(3.5vw, 30px);
+  color: #ff4081;
+  margin: 0;
+  line-height: max(4.4vw, 34.5px);
+}
+
+#banner p {
+  font-size: max(1.7vw, 13px);
+  margin: 2vw 0 3vw 0;
+  line-height: max(1.98vw, 15.5px);
+}
+
+#botão-saber-mais {
+  text-align: center;
+  color: #ff4081;
+  font-size: max(1.7vw, 13px);
+  text-decoration: none;
+  border: max(0.14vw, 1px) solid #ff4081;
+  border-radius: 62px;
+  padding: 0.6vw 2.6vw;
+  line-height: max(1.98vw, 15.5px);
+}
+
+#botão-saber-mais:hover {
+  transition: all 300ms;
+  background-color: #ff4081;
+  color: #fff;
+}
+
+#banner img {
+  width: max(34.8vw, 250px);
+}
+
+#nossos-cursos {
+  background-color: #f6f6f6;
+  padding: 3vw 0 8vw 0;
+}
+
+#cursos {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.curso-imagem img {
+  height: max(19vw, 100px);
+}
+
+.curso-item h3 {
+  font-size: max(1.6vw, 11px);
+  color: #ff4081;
+}
+
+.curso-item p {
+  font-size: max(1.1vw, 8px);
+  margin-bottom: 3vw;
+  line-height: max(1.25vw, 9.7px);
+}
+
+.botão-começar {
+  font-size: max(1.3vw, 10px);
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff4081;
+  border-radius: 62px;
+  padding: 1vw 3.5vw;
+}
+
+.botão-começar:hover {
+  transition: all 300ms;
+  background-color: #fff;
+  color: #ff4081;
+  border: max(0.14vw, 1px) solid #ff4081;
+}
+
+#feedback {
+  margin: 8vw 10vw;
+}
+
+#feedback h2 {
+  color: #009688;
+  font-size: max(2.3vw, 18px);
+  margin-bottom: 6vw;
+}
+
+#comentários {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 7vw;
+}
+
+.comentário {
+  display: flex;
+  gap: 3vw;
+  font-size: max(1.15vw, 9px);
+}
+
+.comentário img {
+  width: max(7.2vw, 52px);
+}
+
+
+.comentário p {
+  font-size: max(1.15vw, 9px);
+  line-height: max(1.56vw, 12px);
+  font-weight: 300;
+  width: 23.5vw;
+  margin: 0 0 1vw 0;
+}
+
+.comentário h5 {
+  font-size: max(1.15vw, 9px);
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+#outros-conteudos {
+  background-color: #f6f6f6;
+  padding: 8vw 10vw;
+}
+
+#outros-conteudos h1 {
+  color: #009688;
+  font-size: max(2.3vw, 18px);
+  line-height: 42.51px;
+}
+
+#mais-conteudo {
+  display: flex;
+  gap: 9vw;
+  margin: 5vw auto;
+}
+
+.conteudo {
+  cursor: pointer;
+}
+
+.retangulo {
+  background-color: #c4c4c4;
+  width: max(20vw, 110px);
+  height: max(13.4vw, 67px);
+}
+
+.conteudo h4 {
+  color: #009688;
+  font-size: max(1.7vw, 13px);
+  margin: 1vw 0 0 0;
+}
+
+.conteudo p {
+  color: #000;
+  font-size: max(1.15vw, 9px);
+  margin: 0 0 4vw 0;
+}
+
+.botão-todos-posts {
+  text-align: center;
+}
+
+#botão-todos-posts {
+  text-align: center;
+}
+
+.botão-todos-posts {
+  font-size: max(1.6vw, 12px);
+  text-decoration: none;
+  color: #ff4081;
+  background-color: #f6f6f6;
+  border: max(0.14vw, 1px) solid #ff4081;
+  border-radius: 62px;
+  padding: 0.8vw 3.4vw;
+}
+
+.botão-todos-posts:hover {
+  transition: all 300ms;
+  color: #fff;
+  background-color: #ff4081;
+}
+
+footer {
+  background-color: #419488;
+}
+
+.container-logo-rodapé {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw 3vw;
+  max-width: 1740px;
+}
+
+.logo-rodapé {
+  width: 15vw
+}
+
+.menu-item-rodapé {
+  display: block;
+  color: #fff;
+  font-weight: 400;
+  font-size: max(1.3vw, 10px);
+  text-decoration: none;
+  margin-bottom: max(0.5vw, 5px);
+}
+
+.menu-item-rodapé:hover {
+  opacity: 0.5;
+}
+
+.botões-rodapé {
+  text-align: center;
+}
+
+.botão-rodapé {
+  display: block;
+  background-color: #419488;
+  color: #fff;
+  font-weight: 400;
+  width: max(20vw, 120px);
+  height: max(3.2vw, 20px);
+  font-size: max(1.3vw, 10px);
+  border: max(0.14vw, 1px) solid #fff;
+  border-radius: 62px;
+  margin-bottom: 1vw;
+  box-sizing: border-box;
+  padding: 0.7vw 0;
+  cursor: pointer;
+}
+
+.botão-rodapé:hover {
+  transition: all 300ms;
+  background-color: #fff;
+  color: #419488;
+}
+
+@media (max-width: 750px) {
+  #banner {
+    text-align: center;
+  }
+
+  #banner img {
+    display: none;
+  }
+
+  .curso-item p {
+    display: none;
+  }
+
+  .comentário img {
+    display: none;
+  }
+
+  .comentário p {
+    width: 36vw;
+  }
+
+  #mais-conteudo {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .conteudo {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5vw;
+    text-align: left;
+  }
+}
