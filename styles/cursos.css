@@ -3,6 +3,9 @@
     padding-right: 5vw;
 }
 
+.intro {
+    margin-top: 5vh;
+}
 
 .contInvestimento {
     display: flex; 
@@ -34,6 +37,10 @@
     border-top-width: 5px;
     border-top-style: solid;
     margin: 50px 0px;
+}
+
+.ultimo {
+    margin-bottom: 10vh;
 }
 
 /*Style do inicio.css, feito pelo Murillo*/
