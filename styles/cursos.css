@@ -27,7 +27,11 @@
 
 .textInvestimento {
     width: 70%;
-    margin-left: 20px; 
+    margin-left: 20px;
+}
+
+.textInvestimento>button {
+    align-self: flex-start;
 }
 
 .centro {
