@@ -12,6 +12,14 @@
     height: auto;  
     object-fit: contain; 
 }
+.titleDescription {
+    color: #009688;
+}
+
+.sectionTitle {
+    color: #ff4081;
+}
+
 .content {
     padding: 5vh 10vw;
     background-color: #e5e5e5;
