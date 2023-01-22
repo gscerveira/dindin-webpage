@@ -32,16 +32,21 @@
 
 .textInvestimento>button {
     align-self: flex-start;
+    border-radius: 62px;
+    padding: 13px 40px;
+    background-color: #2E948A;
+    color: #ffffff;
+    border-style: none;
 }
 
 .centro {
     padding-top: 50px;
     padding-bottom: 50px;
     border-bottom-color: #C4C4C4;
-    border-bottom-width: 5px;
+    border-bottom-width: 2px;
     border-bottom-style: solid;
     border-top-color: #C4C4C4;
-    border-top-width: 5px;
+    border-top-width: 2px;
     border-top-style: solid;
     margin: 50px 0px;
 }
