@@ -46,7 +46,12 @@
     margin-bottom: 10vh;
 }
 
+.title {
+    color: #FF4081;
+}
 
+
+/*CSS Murillo*/
 body {
   margin: 0;
   padding: 0;
